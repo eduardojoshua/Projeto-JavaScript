@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incentivo a Exercícios Físicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Incentivo a Exercícios Físicos</h1>
+
+    <!-- Desafio Diário -->
+    <div class="challenge-section">
+        <h2>Desafio Diário</h2>
+        <div id="daily-challenge"></div>
+        <button id="toggle-timer">Iniciar</button> <!-- Botão agora na seção de desafios -->
+        <button id="complete-challenge">Terminar</button>
+    </div>
+
+    <!-- Cronômetro -->
+    <div class="timer-section">
+        <h2>Cronômetro</h2>
+        <div id="timer-display">0 segundos</div>
+    </div>
+
+    <!-- Pontos Acumulados -->
+    <div class="points-section">
+        <h2>Pontos Acumulados: <span id="points-count">0</span></h2>
+    </div>
+
+    <!-- Recompensa Especial -->
+    <div class="rewards-section">
+        <h2>Recompensa Especial</h2>
+        <p id="reward-message"></p>
+        <button id="claim-reward">Trocar por Recompensa (50 pontos)</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
